@@ -1,0 +1,31 @@
+body{
+  background-color: #00BFFF;
+}
+svg{
+  width: 80%;
+  height: 80%;
+}
+
+ #mallorcadi:hover{
+   fill: white;
+}
+#menorcadi:hover{
+  fill: white;
+}
+#formenteradi:hover{
+  fill: white;
+}
+#ibizadi:hover{
+  fill: white;
+}
+#cabreradi:hover{
+  fill: white;
+}
+
+text{
+  display: none;
+}
+
+path:hover + text{
+  display: block;
+}
